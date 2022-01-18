@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/work"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:paddingTop="11dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="7dp"
+        android:id="@+id/txtAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD SENTENCE"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:hint="Enter text title"
+        android:padding="7dp"
+        android:textColor="#2D3030"
+        android:textIsSelectable="false"
+        android:inputType="textCapCharacters"
+        android:textSize="18dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/edtcontent"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Enter text content"
+        android:text=""
+        android:padding="7dp"
+        android:gravity="left"
+        android:textColor="#2D3030"
+        android:textSize="18dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewUye"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:layout_gravity="right"
+        android:background="@color/work">
+
+        <RelativeLayout
+            android:id="@+id/rlt_buton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/btnadd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="ADD"
+                android:textColor="@color/work"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

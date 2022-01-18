@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/home_page_purple"
+        android:title="Home"
+        />
+    <item android:id="@+id/message"
+        android:icon="@drawable/message_purple"
+        android:title="Messages"/>
+    <item android:id="@+id/persons"
+        android:icon="@drawable/ic_baseline_control_point_24"
+        android:title="Add Post"/>
+
+    <item android:id="@+id/star"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notifications"/>
+    <item android:id="@+id/search"
+        android:icon="@drawable/persons_search"
+        android:title="Search"/>
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile"
+                android:title="Profile" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/like"
+                android:icon="@drawable/like"
+                android:title="Posts You've Liked" />
+
+            <item
+                android:id="@+id/favori"
+                android:icon="@drawable/star"
+                android:title="Favorites" />
+
+            <item
+                android:id="@+id/person"
+                android:icon="@drawable/persons_n"
+                android:title="Persons" />
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+</menu>

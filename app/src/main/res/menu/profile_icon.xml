@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/list_item" android:title="Log out"></item>
+    <item android:id="@+id/add" android:title="Add post"></item>
+    <item
+        android:id="@+id/profile_icon"
+        android:orderInCategory="200"
+        android:title="Search"
+        android:icon="@drawable/profile"
+        app:showAsAction="ifRoom"
+        ></item>
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.busrasonmez.socialenglish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SocialEnglish">
+        <activity android:name=".education.Work.Quiz.QuizActivity"
+            android:theme="@style/Theme.Education2"></activity>
+        <activity
+            android:name=".education.Notebook.Sentence.NotebookSentenceContentsActivity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Notebook.Word.NotebookWordContentsActivity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Notebook.Sentence.NotebookSentenceActivity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Notebook.Word.NotebookWordActivity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Notebook.Subject.NotebookWord2Activity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Work.Sentence.WorkSentenceActivity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Work.Word.WorkWordActivity"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Work.Subject.WorkSubjectContent"
+            android:theme="@style/Theme.Education2" />
+        <activity
+            android:name=".education.Education"
+            android:theme="@style/Theme.Education2" />
+        <activity android:name=".social_media.ProfileSetting.Persons.PersonsFragment" />
+        <activity android:name=".social_media.Messages.MessagePage" />
+        <activity android:name=".social_media.ProfileSetting.Favorites.FavoritesFragment" />
+        <activity android:name=".social_media.ProfileSetting.ProfileActicity" />
+        <activity android:name=".social_media.SocialMedia" />
+        <activity android:name=".main_page" />
+        <activity android:name=".register" />
+        <activity android:name=".user_login" />
+        <activity android:name=".application_launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

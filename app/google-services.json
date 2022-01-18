@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "371885755981",
+    "project_id": "socialenglishproject",
+    "storage_bucket": "socialenglishproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371885755981:android:9cb899f5a830045995d604",
+        "android_client_info": {
+          "package_name": "com.busrasonmez.socialenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371885755981-f4p442sckku7tkpia36dnomp8l95a46u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcM2S15UCvbbBeq23oigj8txHttPCD6-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371885755981-f4p442sckku7tkpia36dnomp8l95a46u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

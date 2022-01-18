@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/work"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:paddingTop="11dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="7dp"
+        android:id="@+id/txtEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WORD"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageadd"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/imageadd"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:id="@+id/txtword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_border1"
+        android:text="WORD"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textIsSelectable="false"
+        android:inputType="textCapCharacters"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/txtenglishmean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/edittext_border1"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtturkishmean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turkish"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:background="@drawable/edittext_border1"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
